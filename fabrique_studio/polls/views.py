@@ -1,7 +1,7 @@
-from rest_framework.generics import ListCreateAPIView, ListAPIView, QuerySet
+from rest_framework.generics import ListCreateAPIView, ListAPIView
 from django.utils.timezone import now
 
-from .models import Poll, Question, Answer, User
+from .models import Poll, Question, Answer
 from .serializers import PollSerializer, QuestionSerializer, MyPollSerializer, AnswerSerializer
 
 
