@@ -31,8 +31,9 @@ python manage.py runserver
 
 ## Django's Applications
 
-### api
-All routes compatible with CRUD
+## api
+
+`All routes compatible with CRUD`
 
 ####Get all active polls:
 _GET: /api/polls_
