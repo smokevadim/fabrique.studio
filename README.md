@@ -10,7 +10,7 @@ Its a REST backend app contains test Polls
 open terminal and run the following commands:
 
 ```shell script
-git clone git clone https://github.com/smokevadim/fabrique.studio.git
+git clone https://github.com/smokevadim/fabrique.studio.git
 cd fabrique.studio
 pip install -r requirements.txt
 python manage.py migrate
