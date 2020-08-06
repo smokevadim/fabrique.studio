@@ -50,5 +50,4 @@ class MyPollView(ListAPIView):
 
     def get_queryset(self):
         if 'user_id' in self.request.headers:
-            return Question.objects.filter(
-                pk__in=Answer.objects.filter(user=self.request.headers['user_id']).values("question"))
+            return Poll.objects.filter(pk__in=Question.objects.filter(pk__in =Answer.objects.filter(user=self.request.headers['user_id']).values('question')).values('poll'))

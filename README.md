@@ -46,7 +46,7 @@ _GET: /api/polls/\<id\>/_
 #### Participation in poll
 _POST: /api/polls/\<id\>/_
 
-**Send** data in POST request with "user_id" in header (or without if anonymous) and body:
+**Send** data in POST request with "user-id" in header (or without if anonymous) and body:
 ```
 {           
             "poll": id,            
@@ -58,7 +58,7 @@ _POST: /api/polls/\<id\>/_
 #### Get details answered polls
 _GET: /api/my_polls/_
 
-**Send** GET request with "user_id" in header
+**Send** GET request with "user-id" in HEADERS
 
 **Returns** results of completed by "user_id" polls
 
