@@ -31,8 +31,7 @@ python manage.py runserver
 
 `All routes compatible with CRUD`
 
-
-####Get all active polls:
+#### Get all active polls:
 _GET: /api/polls/_
 
 **Returns** active in this time polls.
