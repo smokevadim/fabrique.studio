@@ -32,19 +32,19 @@ python manage.py runserver
 `All routes compatible with CRUD`
 
 ####Get all active polls:
-_GET: /api/polls_
+_GET: /api/polls/_
 
 **Returns** active in this time polls.
 
 
 #### Get poll questions
-_GET: /api/polls/\<id\>_
+_GET: /api/polls/\<id\>/_
 
 **Returns** all questions in poll with "id" 
 
 
 #### Participation in poll
-_POST: /api/polls/\<id\>_
+_POST: /api/polls/\<id\>/_
 
 **Send** data in POST request with "user_id" in header (or without if anonymous) and body:
 ```
@@ -56,7 +56,7 @@ _POST: /api/polls/\<id\>_
 ```
 
 #### Get details answered polls
-_GET: /api/my_polls_
+_GET: /api/my_polls/_
 
 **Send** GET request with "user_id" in header
 

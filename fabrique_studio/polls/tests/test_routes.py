@@ -26,5 +26,5 @@ def test_route_vote_poll(test_polls):
         "answer": "More than dogs"
     }
 
-    response = client.post('/api/polls/8', data, format='json')
+    response = client.post('/api/polls/8/', data, format='json')
     assert response.status_code == 201
