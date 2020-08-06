@@ -27,11 +27,7 @@ python manage.py runserver
 
 * open http://127.0.0.1:8000/
 
-## Extensibility
-
-## Django's Applications
-
-## api
+## API
 
 `All routes compatible with CRUD`
 
@@ -66,8 +62,6 @@ _GET: /api/my_polls_
 
 **Returns** results of completed by "user_id" polls
 
-### ui
-
 ## Models
 
 * User
@@ -79,8 +73,6 @@ _GET: /api/my_polls_
 
 * Python 3.8: https://www.python.org/
 * Django DRF: https://www.django-rest-framework.org/
-
-## Frontend
 
 ## Tests
 
